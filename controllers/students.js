@@ -30,7 +30,7 @@ exports.update = function(req, res, next){
 	db.query("update student set ? where id = ?",[req.body, req.params.id], function(err,rows){
 		if(err) return next(err);
 		res.send(rows);
-	});
+	}); 
 };
 
 
