@@ -32,7 +32,7 @@ describe('student',function(){
 			})
 		});
 	})
-	
+	 
 	describe('insert()',function(){
 		it('should insert a student record', function(done){
 			request(url)

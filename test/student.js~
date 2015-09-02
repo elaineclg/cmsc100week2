@@ -5,7 +5,7 @@ describe('student',function(){
 	var url = "http://localhost:5000";
 	var studrec =
 	{	'name': 'Elaine',
-		'studNo': '2013-23569'
+		'studno': '2013-23569'
 	};
 	
 	describe('find()',function(){
