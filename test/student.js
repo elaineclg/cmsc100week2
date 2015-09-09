@@ -41,6 +41,7 @@ describe('student',function(){
 			.end(function(err,res){
 				if(err) throw err;
 				res.should.have.status(200);
+				res.body.should.be.an.instanceOf(Object).and.have.property('id','1');
 				done();
 			})
 		});
